@@ -28,7 +28,7 @@ we set the wrapped gift aside and moved onto the next gift. Measure, cut, fold,
 tape, add card, set aside. Measure, cut, fold, tape, add card, set aside. Measure, cut, fold, tape,
 add card, set aside... phew!
 
-¥In programming terms, we can think of each step as an action, a... _function_ that is called. It might look something like:
+In programming terms, we can think of each step as an action, a... _function_ that is called. It might look something like:
 
 ```js
 // gift 1
@@ -233,6 +233,16 @@ setAside(gifts)
 ```
 
 ### Assignment
+
+**A NOTE ON TESTING:** This lab, and others like it that benefit from responsive visual feedback, use a different kind of testing than you may not be used to. When you run `learn` you will be presented with an IP address of a separate page that should be loaded in a secondary tab in your browser. In the terminal, you will see a message similar to:
+
+```
+Your server is running at 174.138.35.103:55323
+```
+
+These tests are especially useful because they update in realtime, immediately after the document is saved. To view this, simply copy the entire string of numbers, open a new tab and paste the numbers in. Your `index.js` file will appear (make sure there is content in the file, otherwise it will show up blank!). The stoplights on the right side of the page may not accurately reflect your progress against this form of testing, but the other page will indicate code coverage.
+
+Now, for the assignment:
 
 We're going to print out some welcome badges for new Klossybook employees. Build a
 function named `printBadges()` that accepts one argument, an array of employee
